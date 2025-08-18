@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1st Armored Division</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1a1a1a;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #444;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav a {
+      color: #f5f5f5;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #d4af37; /* gold accent */
+    }
+
+    .hero {
+      text-align: center;
+      padding: 5rem 2rem;
+      background: url("https://www.army.mil/e2/c/images/2015/05/06/391524/original.jpg") center/cover no-repeat;
+      color: white;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.6);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .hero-content img {
+      height: 80px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #d4af37;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #444;
+      padding-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      background: #1a1a1a;
+      padding: 1.5rem;
+      border-top: 2px solid #444;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/1st_Armored_Division_SSI.svg" alt="1st Armored Division Patch">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#chain">Chain of Command</a>
+      <a href="#ranks">Ranks</a>
+      <a href="#join">Join Us</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <!-- Left image -->
+      <img src="https://i.ibb.co/M3Lybyt/1AD-png.webp" alt="1AD">
+      
+      <div>
+        <h1>1st Armored Division</h1>
+        <p>"Old Ironsides" – Strength, Honor, and Commitment</p>
+      </div>
+
+      <!-- Right image -->
+      <img src="https://i.ibb.co/M3Lybyt/1AD-png.webp" alt="1AD">
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>The 1st Armored Division, known as "Old Ironsides," is a premier combat division with a rich history of valor and service. 
+       Our mission is to provide sustainment, combat power, and leadership wherever duty calls.</p>
+  </section>
+
+  <section id="chain">
+    <h2>Chain of Command</h2>
+    <p><strong>Commanding General:</strong> [Name Here]</p>
+    <p><strong>Deputy Commanding General:</strong> [Name Here]</p>
+    <p><strong>Command Sergeant Major:</strong> [List Here]</p>
+  </section>
+
+  <section id="ranks">
+    <h2>Ranks & Awards</h2>
+    <p>Our structured rank system recognizes merit, dedication, and leadership. From enlisted personnel to officers, 
+       every promotion represents responsibility and honor.</p>
+    <ul>
+      <li>Private → Sergeant → Lieutenant → Captain → Major → Colonel → General</li>
+    </ul>
+  </section>
+
+  <section id="join">
+    <h2>Join Us</h2>
+    <p>Interested in serving with the 1st Armored Division? Fill out our application form and be part of a proud legacy.</p>
+    <p><a href="https://forms.gle/" target="_blank" style="color:#d4af37;">Apply Here</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 1st Armored Division | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
