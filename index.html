@@ -9,70 +9,87 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f9f9f9;
-      text-align: center;
+      background-color: #f4f4f4;
     }
+
     header {
-      background-color: #222;
-      color: white;
+      text-align: center;
       padding: 20px;
+      background: #222;
+      color: white;
       display: flex;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       gap: 15px;
     }
+
     header img {
+      width: 60px;
       height: 60px;
     }
-    h1 {
+
+    header h1 {
       margin: 0;
       font-size: 2.5em;
     }
-    p.motto {
-      margin: 5px 0 0;
+
+    header p {
+      margin: 0;
       font-style: italic;
     }
-    /* Battalions Section */
-    #battalions {
+
+    section {
       padding: 50px;
-      background-color: #f4f4f4;
+      text-align: center;
     }
+
+    #battalions {
+      background-color: #e9e9e9;
+    }
+
     #battalions h2 {
       font-size: 2em;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
+
     .battalion-container {
       display: flex;
       justify-content: center;
       gap: 20px;
       flex-wrap: wrap;
     }
+
     .battalion {
       background: white;
       border-radius: 12px;
       padding: 20px;
       width: 300px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
     }
+
     .battalion img {
       width: 100%;
       border-radius: 10px;
       margin-bottom: 15px;
     }
+
     footer {
-      margin-top: 40px;
-      padding: 20px;
+      text-align: center;
+      padding: 15px;
       background: #222;
       color: white;
     }
   </style>
 </head>
 <body>
+
+  <!-- Header with images and motto -->
   <header>
     <img src="https://i.ibb.co/M3Lybyt/1AD-png.webp" alt="1AD Logo Left">
     <div>
-      <h1>1st Armored Division</h1>
-      <p class="motto">"Iron Sharpens Iron"</p>
+      <h1>1AD</h1>
+      <p>"First In, Last Out"</p>
     </div>
     <img src="https://i.ibb.co/M3Lybyt/1AD-png.webp" alt="1AD Logo Right">
   </header>
@@ -102,15 +119,17 @@
       <div class="battalion">
         <img src="https://via.placeholder.com/300x200" alt="3rd Battalion">
         <h3>3rd Battalion</h3>
-        <p>Motto: "Victory Through Unity"</p>
-        <p>Focused on teamwork and strategic excellence.</p>
+        <p>Motto: "Steel and Resolve"</p>
+        <p>Always ready, committed to protecting and leading with strength.</p>
       </div>
 
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>© 2025 1st Armored Division | All Rights Reserved</p>
+    <p>&copy; 2025 1st Armored Division. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
